@@ -7,6 +7,6 @@ class EnviadorDeSpam():
 
         for usuario in self.sessao.listar():
             self.enviador.enviar(remetente,
-                          usuario.email,
-                          titulo,
-                          assunto)
+                                 usuario.email,
+                                 titulo,
+                                 assunto)
