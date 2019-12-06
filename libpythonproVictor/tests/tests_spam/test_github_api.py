@@ -5,8 +5,9 @@ from unittest.mock import Mock
 import pytest
 
 
-@pytest.fixture(mocker)
-def avatar_url():
+@pytest.fixture
+def avatar_url(mocker):
+    url = 'https://avatars2.githubusercontent.com/u/51089294?v=4'
     resp_url = Mock()
     resp_url.json.return_value = {"login": "Lnvictor",
                                   "id": 51089294,
@@ -15,10 +16,10 @@ def avatar_url():
 
     get_mock = mocker.patch('libpythonproVictor.github_api.buscar_avatar')
     get_mock.return_value = resp_url
-    return github_api
+    return url
 
 
-def test_buscar_avatar(avatar_url):
+def test_buscar_avatar():
     url = github_api.buscar_avatar('Lnvictor')
     assert 'https://avatars2.githubusercontent.com/u/51089294?v=4'== url
 
