@@ -196,11 +196,10 @@
         },
         "pytest-mock": {
             "hashes": [
-                "sha256:67e414b3caef7bff6fc6bd83b22b5bc39147e4493f483c2679bc9d4dc485a94d",
-                "sha256:e24a911ec96773022ebcc7030059b57cd3480b56d4f5d19b7c370ec635e6aed5"
+                "sha256:4992db789175540d40a193bc60e987b1e69f1a989adad525a44e581c82149b14",
+                "sha256:f9d77233b3af6c71cec6a8b8b5e9e9a2effd1bb6ff56e9ace72541ff6843ac81"
             ],
-            "index": "pypi",
-            "version": "==1.13.0"
+            "version": "==3.5.0"
         },
         "six": {
             "hashes": [
