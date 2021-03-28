@@ -116,11 +116,10 @@
         },
         "importlib-metadata": {
             "hashes": [
-                "sha256:3a8b2dfd0a2c6a3636e7c016a7e54ae04b997d30e69d5eacdca7a6c2221a1402",
-                "sha256:41e688146d000891f32b1669e8573c57e39e5060e7f5f647aa617cd9a9568278"
+                "sha256:eb83dfc8d87a64d42fb2904312d632bb8d57e47c5b435f8d4d5523d2b0efc3d0",
+                "sha256:fc605f818ff2389df65d893ccefcd5310678c48c2855c42619464ed48556ff08"
             ],
-            "markers": "python_version < '3.8'",
-            "version": "==1.2.0"
+            "version": "==3.8.1"
         },
         "mccabe": {
             "hashes": [
