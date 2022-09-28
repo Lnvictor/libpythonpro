@@ -195,12 +195,8 @@
             "version": "==2.8.1"
         },
         "pytest-mock": {
-            "hashes": [
-                "sha256:67e414b3caef7bff6fc6bd83b22b5bc39147e4493f483c2679bc9d4dc485a94d",
-                "sha256:e24a911ec96773022ebcc7030059b57cd3480b56d4f5d19b7c370ec635e6aed5"
-            ],
-            "index": "pypi",
-            "version": "==1.13.0"
+            "hashes": [],
+            "version": "==3.9.0"
         },
         "six": {
             "hashes": [
